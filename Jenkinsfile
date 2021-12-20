@@ -3,7 +3,7 @@ pipeline{
  stages{
    stage('git'){
      steps{
-      git url: "https://github.com/MukeshS-hexaware/spring-boot-demo.git" , branch: "master" 
+      git url: "https://github.com/NiteshBehera/GroovyProject.git" , branch: "main" 
      }
    }
    stage('test Unit testing'){

@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage ('git'){
             steps {
-                git url: "https://github.com/NiteshBehera/GroovyProject.git" , branch: "main"
+                git url: "url = git@github.com:NiteshBehera/GroovyProject.git" , branch: "main"
             }
         }
         stage ('build recheck'){
